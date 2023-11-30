@@ -1,0 +1,147 @@
+@charset "utf-8";
+body{
+    font-family: arial;
+}
+header{
+    background-color: white;
+    align-self: flex-end;
+    font-size: medium;      
+}
+li{
+    display: inline;
+    margin-right: 10px;
+    
+    
+}
+
+li a{
+    text-decoration: none;
+    color: brown;
+}
+ul{
+    text-align: right;
+}
+
+img{
+    width: 15%;
+    height: 20%;
+}
+.granel h3{
+    margin: 5px;
+        padding: 4px;
+        background: rgb(126, 78, 35);
+        border-radius: 8px;
+        text-align: left;
+        font-size: 18px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        color: white;
+    }
+.granel h4{
+margin: 5px;
+    padding: 4px;
+    background: rgb(129, 169, 30);
+    border-radius: 8px;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: white;
+}
+.loja h3{
+    margin: 5px;
+    padding: 4px;
+    background: rgb(126, 78, 35); 
+    border-radius: 8px;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.loja a{
+    text-decoration: none;
+    color: green;
+}
+footer h3{
+    margin: 5px;
+	padding: 4px;
+	background: rgb(129, 169, 30);
+	border-radius: 8px;
+    text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	color: white;
+}
+.container{
+    background-color:rgb(129, 169, 30);
+}
+.flexbox .box img{
+    width: 100%;
+    height: auto;
+}
+section article{
+    margin: 15px;
+    display: flex;
+    flex: 1 0 250px;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+@media (max-width: 670px){
+    body{
+        background: white;
+        
+    }    
+    
+    header img{
+        width: 35%;
+        height: 30%;
+        float: right;
+    }
+    
+    header{
+        background-color: white;
+        padding: 40px;
+        display: block;
+    }
+    
+    .menu a{
+        padding-inline-start: 10px;
+        text-align: left;
+        margin-right: 100%;
+    } 
+    
+    ul{
+        float: right;
+    }   
+    
+    .menu{
+        float: none;
+        display: grid;    
+    }
+    footer p{
+        display: inline-block;
+        margin: 0;
+    }
+    footer h3{
+        margin: 5px;
+        padding: 4px;
+        background: rgb(129, 169, 30);
+        border-radius: 8px;
+        text-align: left;
+        font-size: 18px;
+        cursor: pointer;
+        letter-spacing: 2px;
+        color: white;
+    }
+    
+}
